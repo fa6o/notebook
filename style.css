@@ -75,4 +75,11 @@ h1 {
     margin-left: auto;
     color: #ff5252;
     cursor: pointer;
+    
+.task {
+    transition: all 0.3s;
+}
+.task.removing {
+    opacity: 0;
+    transform: translateX(-100%);
 }
